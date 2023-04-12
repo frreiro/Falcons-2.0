@@ -7,7 +7,4 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
   },
-  highlight: {
-    fontWeight: '700',
-  },
 });

@@ -8,7 +8,4 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: 'blue',
   },
-  teste: {
-    fontWeight: 'bold',
-  },
 });
