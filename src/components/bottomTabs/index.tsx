@@ -3,7 +3,7 @@ import Home from '../../pages/Home';
 
 const Tab = createBottomTabNavigator();
 
-export default function BottomTab() {
+export default function BottomTabs() {
   return (
     <Tab.Navigator screenOptions={{headerShown: false}}>
       <Tab.Screen name="RA" component={Home} />
