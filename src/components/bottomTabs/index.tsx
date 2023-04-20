@@ -3,6 +3,8 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Home from '../../pages/Home';
 import TabIconItem from './tabIconItem';
 import {GlobalStyles} from '../../../styles/GlobalStyles';
+import RA from '../../pages/RA';
+import Documents from '../../pages/Documents';
 
 const Tab = createBottomTabNavigator();
 
@@ -11,6 +13,7 @@ type TabInfoType = {
   name: string;
   focusedIcon: string;
   unfocusedIcon: string;
+  component: () => JSX.Element;
 };
 
 export default function BottomTabs() {
@@ -20,18 +23,21 @@ export default function BottomTabs() {
       name: 'RA',
       focusedIcon: 'cube',
       unfocusedIcon: 'cube-outline',
+      component: RA,
     },
     {
       id: 1,
       name: 'Home',
       focusedIcon: 'home',
       unfocusedIcon: 'home-outline',
+      component: Home,
     },
     {
       id: 2,
       name: 'Docs',
       focusedIcon: 'document',
       unfocusedIcon: 'document-outline',
+      component: Documents,
     },
   ];
 
@@ -50,7 +56,7 @@ export default function BottomTabs() {
           <Tab.Screen
             key={tab.id}
             name={tab.name}
-            component={Home}
+            component={tab.component}
             options={{
               tabBarIcon: ({color, focused, size}) => (
                 <TabIconItem
