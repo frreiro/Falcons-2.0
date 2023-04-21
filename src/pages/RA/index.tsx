@@ -5,7 +5,7 @@ import {styles} from './styles';
 
 export default function RA() {
   return (
-    <MainLayout>
+    <MainLayout title="PEÇAS">
       <View style={styles.container}>
         <Text>RA aqui</Text>
       </View>

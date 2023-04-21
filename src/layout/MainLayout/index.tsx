@@ -3,11 +3,17 @@ import {SafeAreaView, StatusBar} from 'react-native';
 import Header from '../../components/header';
 import {styles} from './styles';
 
-export default function MainLayout({children}: {children: ReactNode}) {
+export default function MainLayout({
+  children,
+  title,
+}: {
+  children: ReactNode;
+  title: string;
+}) {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle={'dark-content'} backgroundColor={'#fff'} />
-      <Header />
+      <Header title={title} />
       {children}
     </SafeAreaView>
   );
