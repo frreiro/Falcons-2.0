@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {GlobalStyles} from '../../../styles/GlobalStyles';
+import {GlobalStyles} from '../../styles/GlobalStyles';
 
 export const styles = StyleSheet.create({
   container: {
@@ -7,11 +7,11 @@ export const styles = StyleSheet.create({
     width: '100%',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: GlobalStyles.colors.primaryColor,
+    backgroundColor: GlobalStyles.colors.primary,
   },
   text_title: {
     fontFamily: 'HandjetCircle-Bold',
     fontSize: 36,
-    color: 'white',
+    color: GlobalStyles.colors.light,
   },
 });

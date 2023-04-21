@@ -2,7 +2,7 @@ import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Home from '../../pages/Home';
 import TabIconItem from './tabIconItem';
-import {GlobalStyles} from '../../../styles/GlobalStyles';
+import {GlobalStyles} from '../../styles/GlobalStyles';
 import RA from '../../pages/RA';
 import Documents from '../../pages/Documents';
 
@@ -46,10 +46,10 @@ export default function BottomTabs() {
       initialRouteName="Home"
       screenOptions={{
         headerShown: false,
-        tabBarActiveTintColor: GlobalStyles.colors.primaryColor,
-        tabBarInactiveTintColor: GlobalStyles.colors.primaryColor,
+        tabBarActiveTintColor: GlobalStyles.colors.primary,
+        tabBarInactiveTintColor: GlobalStyles.colors.primary,
         tabBarShowLabel: false,
-        tabBarStyle: {backgroundColor: GlobalStyles.colors.secondaryColor},
+        tabBarStyle: {backgroundColor: GlobalStyles.colors.secondary},
       }}>
       {tabsInfo.map(tab => {
         return (
