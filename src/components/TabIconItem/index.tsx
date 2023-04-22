@@ -7,6 +7,7 @@ export type TabIconItemProps = {
   color: string;
   size: number;
   focused: boolean;
+  id?: number;
 };
 
 export default function TabIconItem({
@@ -15,10 +16,21 @@ export default function TabIconItem({
   color,
   size,
   focused,
+  id,
 }: TabIconItemProps) {
   return focused ? (
-    <Icon name={focusedIconName} color={color} size={size} />
+    <Icon
+      testID={'focusedIcon_'.concat(String(id))}
+      name={focusedIconName}
+      color={color}
+      size={size}
+    />
   ) : (
-    <Icon name={unfocusedIconName} color={color} size={size} />
+    <Icon
+      testID={'unfocusedIcon_'.concat(String(id))}
+      name={unfocusedIconName}
+      color={color}
+      size={size}
+    />
   );
 }

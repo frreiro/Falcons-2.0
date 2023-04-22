@@ -1,6 +1,6 @@
 import React, {ReactNode} from 'react';
 import {SafeAreaView, StatusBar} from 'react-native';
-import Header from '../../components/header';
+import Header from '../../components/Header';
 import {styles} from './styles';
 
 export default function MainLayout({

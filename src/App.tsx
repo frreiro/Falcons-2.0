@@ -1,13 +1,8 @@
 import React from 'react';
-import {NavigationContainer} from '@react-navigation/native';
-import BottomTabs from './components/bottomTabs';
+import Tabs from './components/Tabs';
 
 function App(): JSX.Element {
-  return (
-    <NavigationContainer>
-      <BottomTabs />
-    </NavigationContainer>
-  );
+  return <Tabs />;
 }
 
 export default App;
