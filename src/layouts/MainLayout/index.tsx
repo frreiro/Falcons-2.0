@@ -2,6 +2,7 @@ import React, {ReactNode} from 'react';
 import {SafeAreaView, StatusBar} from 'react-native';
 import Header from '../../components/Header';
 import {styles} from './styles';
+import {GlobalStyles} from '../../styles/GlobalStyles';
 
 export default function MainLayout({
   children,
@@ -12,7 +13,10 @@ export default function MainLayout({
 }) {
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar barStyle={'dark-content'} backgroundColor={'#fff'} />
+      <StatusBar
+        barStyle={'light-content'}
+        backgroundColor={GlobalStyles.colors.primary}
+      />
       <Header title={title} />
       {children}
     </SafeAreaView>
