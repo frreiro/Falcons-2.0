@@ -3,7 +3,7 @@ import {GlobalStyles} from '../../styles/GlobalStyles';
 
 export const styles = StyleSheet.create({
   container: {
-    height: 84,
+    height: 120,
     width: '100%',
     alignItems: 'center',
     justifyContent: 'center',
