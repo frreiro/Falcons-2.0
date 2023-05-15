@@ -1,13 +1,27 @@
 import React from 'react';
 import MainLayout from '../../layouts/MainLayout';
-import {Text, View} from 'react-native';
+import {FlatList, Text, View} from 'react-native';
 import {styles} from './styles';
+import Card from '../../components/Card';
 
 export default function Documents() {
   return (
     <MainLayout title="DOCUMENTOS">
       <View style={styles.container}>
         <Text>Documents aqui</Text>
+        <FlatList
+          data={[
+            {
+              id: 0,
+              title: 'Manual de Montagem',
+            },
+            {
+              id: 1,
+              title: 'Manual de Ferramentas',
+            },
+          ]}
+          renderItem={({item}) => <Card title={item.title} />}
+        />
       </View>
     </MainLayout>
   );
