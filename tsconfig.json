@@ -7,8 +7,13 @@
 		"@components/*": ["src/app/components/*"],
 		"@layouts/*": ["src/app/layouts/*"],
 		"@pages/*": ["src/app/pages/*"],
+		"@providers/*": ["src/app/providers/*"],
 		"@globalStyle/*": ["src/styles/*"],
 		"@assets/*": ["src/assets/*"],
+		"@redux/*": ["src/redux/*"],
+		"@resource/*": ["resource/*"],
+
+
 
 
 	}

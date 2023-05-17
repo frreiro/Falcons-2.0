@@ -6,7 +6,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import MainLayout from '@layouts/MainLayout';
 import CustomSwiper from '@components/CustomSwiper';
 import {GlobalStyles} from '@globalStyle/GlobalStyles';
-import Falcons from '../../../../data/data';
+import Falcons from '@resource/data';
 import Car from './Car';
 
 export default function Home() {
