@@ -1,8 +1,8 @@
 import React from 'react';
 import {View} from 'react-native';
 import Swiper from 'react-native-swiper';
-import {GlobalStyles} from '../../styles/GlobalStyles';
 import {styles} from './styles';
+import {GlobalStyles} from '@globalStyle/GlobalStyles';
 
 export default function CustomSwiper({
   children: slides,

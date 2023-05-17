@@ -1,7 +1,7 @@
 import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import TabIconItem from '../TabIconItem';
-import {GlobalStyles} from '../../styles/GlobalStyles';
+import {GlobalStyles} from '../../../styles/GlobalStyles';
 import {NavigationContainer} from '@react-navigation/native';
 import {TabInfoType, tabItens} from './TabItem';
 
