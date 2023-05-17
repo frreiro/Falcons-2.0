@@ -1,12 +1,13 @@
 import React from 'react';
-import MainLayout from '../../layouts/MainLayout';
 import {View} from 'react-native';
 import {styles} from './styles';
-import Car from './Car';
 import Icon from 'react-native-vector-icons/Ionicons';
-import Falcons from '../../../../data/data';
+
 import CustomSwiper from '@components/CustomSwiper';
 import {GlobalStyles} from '@globalStyle/GlobalStyles';
+import MainLayout from '@layouts/MainLayout';
+import Falcons from '../../../../data/data';
+import Car from './Car';
 
 export default function Home() {
   return (

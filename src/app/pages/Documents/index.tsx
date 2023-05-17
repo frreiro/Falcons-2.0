@@ -1,8 +1,9 @@
 import React from 'react';
-import MainLayout from '../../layouts/MainLayout';
 import {FlatList, Text, View} from 'react-native';
 import {styles} from './styles';
+
 import Card from '@components/Card';
+import MainLayout from '@layouts/MainLayout';
 
 export default function Documents() {
   return (
