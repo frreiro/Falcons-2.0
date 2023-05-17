@@ -1,6 +1,6 @@
-import Documents from '../../pages/Documents';
-import Home from '../../pages/Home';
-import RA from '../../pages/RA';
+import Documents from '@pages/Documents';
+import Home from '@pages/Home';
+import RA from '@pages/RA';
 
 export type TabInfoType = {
   id: number;

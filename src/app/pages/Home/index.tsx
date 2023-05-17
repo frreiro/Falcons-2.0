@@ -3,9 +3,9 @@ import {View} from 'react-native';
 import {styles} from './styles';
 import Icon from 'react-native-vector-icons/Ionicons';
 
+import MainLayout from '@layouts/MainLayout';
 import CustomSwiper from '@components/CustomSwiper';
 import {GlobalStyles} from '@globalStyle/GlobalStyles';
-import MainLayout from '@layouts/MainLayout';
 import Falcons from '../../../../data/data';
 import Car from './Car';
 
