@@ -5,7 +5,13 @@ import {GlobalStyles} from '../../../styles/GlobalStyles';
 import {NavigationContainer} from '@react-navigation/native';
 import {TabInfoType, tabItens} from './TabItem';
 
-const Tab = createBottomTabNavigator();
+export type RootStackParamList = {
+  Home: undefined;
+  RA: undefined;
+  Documents: undefined;
+};
+
+const Tab = createBottomTabNavigator<RootStackParamList>();
 
 export default function Tabs({
   TabItens = tabItens,

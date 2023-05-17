@@ -1,10 +1,11 @@
 import Documents from '@pages/Documents';
 import Home from '@pages/Home';
 import RA from '@pages/RA';
+import {RootStackParamList} from '.';
 
 export type TabInfoType = {
   id: number;
-  name: string;
+  name: keyof RootStackParamList;
   focusedIcon: string;
   unfocusedIcon: string;
   component: () => JSX.Element;
@@ -27,7 +28,7 @@ export const tabItens: TabInfoType[] = [
   },
   {
     id: 2,
-    name: 'Docs',
+    name: 'Documents',
     focusedIcon: 'document',
     unfocusedIcon: 'document-outline',
     component: Documents,

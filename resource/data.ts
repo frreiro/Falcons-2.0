@@ -64,12 +64,12 @@ const Falcons: IFalcons = {
       documents: [
         {
           id: 2,
-          title: 'Manual de ferramentas',
+          title: 'Manual de ferramentas 2',
           path: 'path in assets',
         },
         {
           id: 3,
-          title: 'Manual de montagem',
+          title: 'Manual de montagem 2',
           path: 'path in assets',
         },
       ],
