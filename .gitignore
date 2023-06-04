@@ -1,6 +1,6 @@
 # OSX
 #
-src/assets/files/*
+#src/assets/files/*
 .DS_Store
 
 # Xcode
