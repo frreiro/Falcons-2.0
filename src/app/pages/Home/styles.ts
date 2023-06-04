@@ -20,4 +20,15 @@ export const styles = StyleSheet.create({
     marginLeft: 20,
     marginRight: 10,
   },
+  box: {
+    width: 281,
+    height: 177,
+    backgroundColor: GlobalStyles.colors.third,
+    borderRadius: 20,
+    position: 'absolute',
+  },
+  swiper_container: {
+    height: '70%',
+    alignItems: 'center',
+  },
 });

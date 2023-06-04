@@ -28,7 +28,10 @@ export default function Home() {
   return (
     <MainLayout title="FALCONS UFFÓRMULA">
       <View style={styles.container}>
-        <CustomSwiper setActualIndex={index => (indexRef.current = index)}>
+        <CustomSwiper
+          style={styles.swiper_container}
+          backgroundElement={<View style={styles.box} />}
+          setActualIndex={index => (indexRef.current = index)}>
           {Falcons.years.map(car => (
             <Car
               key={car.id}

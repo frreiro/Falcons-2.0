@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
     backgroundColor: GlobalStyles.colors.primary,
   },
   text_title: {
-    fontFamily: 'HandjetCircle-Bold',
+    fontFamily: GlobalStyles.fonts.family.hanjet.circleBold,
     fontSize: 36,
     color: GlobalStyles.colors.light,
   },
