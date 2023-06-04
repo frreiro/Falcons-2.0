@@ -1,0 +1,53 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Handjet-Regular.ttf",
+      "sha1": "b4307ac5059222d77aa1fa9894c1b801ad0636df"
+    },
+    {
+      "path": "src/assets/fonts/HandjetCircle-Black.ttf",
+      "sha1": "c15072a9da0ebc63cd01fe7c58bf5d8485dfbbf6"
+    },
+    {
+      "path": "src/assets/fonts/HandjetCircle-Bold.ttf",
+      "sha1": "73232f4f0a990feeb97f8f562266a6db65cd677f"
+    },
+    {
+      "path": "src/assets/fonts/HandjetCircle-Extralight.ttf",
+      "sha1": "309511d68ef8c6af269c46bd6d9d6df9d4f483a0"
+    },
+    {
+      "path": "src/assets/fonts/HandjetCircleDouble-Light.ttf",
+      "sha1": "cb52c35d5ab45b291829620bc9b4c93f9c96f080"
+    },
+    {
+      "path": "src/assets/fonts/HandjetCircleDouble-Semibold.ttf",
+      "sha1": "db156fc79b3966bdbea41d35ef78857167b4c0a0"
+    },
+    {
+      "path": "src/assets/fonts/HandjetCircleDouble-Thin.ttf",
+      "sha1": "e3906ccf399e900754df9a0b52e206e115409662"
+    },
+    {
+      "path": "src/assets/fonts/HandjetFlowerDouble-Medium.ttf",
+      "sha1": "f1b6ace31cf439c1f7e7222057527d4bea67985f"
+    },
+    {
+      "path": "src/assets/fonts/HandjetHeartDouble-Extrabold.ttf",
+      "sha1": "7e0617c7ae074cd5b78e19fd454d324c5372c8a3"
+    },
+    {
+      "path": "src/assets/fonts/ShareTechMono-Regular.ttf",
+      "sha1": "dd900c3c462c68eea82a0ab5d34d9292a8a797d3"
+    },
+    {
+      "path": "src/assets/files/manual_de_ferramentas_2022.pdf",
+      "sha1": "31e48289512d6327f74f514d4c07d883b6f1cf7c"
+    },
+    {
+      "path": "src/assets/files/manual_de_montagem_2022.pdf",
+      "sha1": "0757ec1fdff3e8760d7425e9403e9f995180374f"
+    }
+  ]
+}

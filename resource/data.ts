@@ -12,7 +12,8 @@ export type AugmentReality = {
 export type Documents = {
   id: number;
   title: string;
-  path: string;
+  file_name: string;
+  type: 'tools' | 'assemblies';
 };
 
 export type YearsData = {
@@ -38,13 +39,15 @@ const Falcons: IFalcons = {
       documents: [
         {
           id: 0,
+          type: 'tools',
           title: 'Manual de ferramentas',
-          path: 'path in assets',
+          file_name: 'manual_de_ferramentas_2022.pdf',
         },
         {
           id: 1,
+          type: 'assemblies',
           title: 'Manual de montagem',
-          path: 'path in assets',
+          file_name: 'manual_de_montagem_2022.pdf',
         },
       ],
       augment_reality: {
@@ -61,18 +64,7 @@ const Falcons: IFalcons = {
       year: '2023',
       image: require('@assets/images/carro.png'),
       title: 'Protótipo 2023',
-      documents: [
-        {
-          id: 2,
-          title: 'Manual de ferramentas 2',
-          path: 'path in assets',
-        },
-        {
-          id: 3,
-          title: 'Manual de montagem 2',
-          path: 'path in assets',
-        },
-      ],
+      documents: [],
       augment_reality: {
         electrical: [],
         powertrain: [],

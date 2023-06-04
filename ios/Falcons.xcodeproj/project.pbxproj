@@ -14,6 +14,18 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-Falcons-FalconsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Falcons-FalconsTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		DE2E857118414693AB49DC82 /* Handjet-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1824B9EEDB04045AA0BF265 /* Handjet-Regular.ttf */; };
+		A4501E515E6845D6B688A244 /* HandjetCircle-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DAF15ADC61C427B8698205C /* HandjetCircle-Black.ttf */; };
+		C46CF475125A4AA8A980F430 /* HandjetCircle-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFBA4940D922401F8368720D /* HandjetCircle-Bold.ttf */; };
+		EFAA6D9BB5CE41C9B99F2D82 /* HandjetCircle-Extralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64222BA154B0436692F4B85C /* HandjetCircle-Extralight.ttf */; };
+		14B385BA09264E94A9EF1333 /* HandjetCircleDouble-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ADACD101C494933B43F8982 /* HandjetCircleDouble-Light.ttf */; };
+		EADC490022424D9FBFC15C0D /* HandjetCircleDouble-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA39D7C109E645DCA4981292 /* HandjetCircleDouble-Semibold.ttf */; };
+		A5A47647F68A49CB87BF090E /* HandjetCircleDouble-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3ADABF7994C47F6A116BB83 /* HandjetCircleDouble-Thin.ttf */; };
+		1200A182853143AF92CBDE69 /* HandjetFlowerDouble-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFFD5FA5641A40808AC6E40F /* HandjetFlowerDouble-Medium.ttf */; };
+		F3B70D294FAD4EEA953C043F /* HandjetHeartDouble-Extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FA0304172D415A904583AF /* HandjetHeartDouble-Extrabold.ttf */; };
+		A7D527A7FB26486EBA37928D /* ShareTechMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BDECEFABE1A4DFDBA1FD229 /* ShareTechMono-Regular.ttf */; };
+		B32C6D979E50486DA3C67DD2 /* manual_de_ferramentas_2022.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3AEC877C23C8456B958419FB /* manual_de_ferramentas_2022.pdf */; };
+		B01EB2E47F254611BB4CBA86 /* manual_de_montagem_2022.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DAE8A34255A84349AF5E8832 /* manual_de_montagem_2022.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,18 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Falcons/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Falcons-FalconsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Falcons-FalconsTests.release.xcconfig"; path = "Target Support Files/Pods-Falcons-FalconsTests/Pods-Falcons-FalconsTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		A1824B9EEDB04045AA0BF265 /* Handjet-Regular.ttf */ = {isa = PBXFileReference; name = "Handjet-Regular.ttf"; path = "../src/assets/fonts/Handjet-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3DAF15ADC61C427B8698205C /* HandjetCircle-Black.ttf */ = {isa = PBXFileReference; name = "HandjetCircle-Black.ttf"; path = "../src/assets/fonts/HandjetCircle-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FFBA4940D922401F8368720D /* HandjetCircle-Bold.ttf */ = {isa = PBXFileReference; name = "HandjetCircle-Bold.ttf"; path = "../src/assets/fonts/HandjetCircle-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		64222BA154B0436692F4B85C /* HandjetCircle-Extralight.ttf */ = {isa = PBXFileReference; name = "HandjetCircle-Extralight.ttf"; path = "../src/assets/fonts/HandjetCircle-Extralight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1ADACD101C494933B43F8982 /* HandjetCircleDouble-Light.ttf */ = {isa = PBXFileReference; name = "HandjetCircleDouble-Light.ttf"; path = "../src/assets/fonts/HandjetCircleDouble-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA39D7C109E645DCA4981292 /* HandjetCircleDouble-Semibold.ttf */ = {isa = PBXFileReference; name = "HandjetCircleDouble-Semibold.ttf"; path = "../src/assets/fonts/HandjetCircleDouble-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A3ADABF7994C47F6A116BB83 /* HandjetCircleDouble-Thin.ttf */ = {isa = PBXFileReference; name = "HandjetCircleDouble-Thin.ttf"; path = "../src/assets/fonts/HandjetCircleDouble-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FFFD5FA5641A40808AC6E40F /* HandjetFlowerDouble-Medium.ttf */ = {isa = PBXFileReference; name = "HandjetFlowerDouble-Medium.ttf"; path = "../src/assets/fonts/HandjetFlowerDouble-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B0FA0304172D415A904583AF /* HandjetHeartDouble-Extrabold.ttf */ = {isa = PBXFileReference; name = "HandjetHeartDouble-Extrabold.ttf"; path = "../src/assets/fonts/HandjetHeartDouble-Extrabold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1BDECEFABE1A4DFDBA1FD229 /* ShareTechMono-Regular.ttf */ = {isa = PBXFileReference; name = "ShareTechMono-Regular.ttf"; path = "../src/assets/fonts/ShareTechMono-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3AEC877C23C8456B958419FB /* manual_de_ferramentas_2022.pdf */ = {isa = PBXFileReference; name = "manual_de_ferramentas_2022.pdf"; path = "../src/assets/files/manual_de_ferramentas_2022.pdf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DAE8A34255A84349AF5E8832 /* manual_de_montagem_2022.pdf */ = {isa = PBXFileReference; name = "manual_de_montagem_2022.pdf"; path = "../src/assets/files/manual_de_montagem_2022.pdf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +146,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				4D1A5BACD7AC4ED8872AFE7A /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +172,26 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		4D1A5BACD7AC4ED8872AFE7A /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				A1824B9EEDB04045AA0BF265 /* Handjet-Regular.ttf */,
+				3DAF15ADC61C427B8698205C /* HandjetCircle-Black.ttf */,
+				FFBA4940D922401F8368720D /* HandjetCircle-Bold.ttf */,
+				64222BA154B0436692F4B85C /* HandjetCircle-Extralight.ttf */,
+				1ADACD101C494933B43F8982 /* HandjetCircleDouble-Light.ttf */,
+				FA39D7C109E645DCA4981292 /* HandjetCircleDouble-Semibold.ttf */,
+				A3ADABF7994C47F6A116BB83 /* HandjetCircleDouble-Thin.ttf */,
+				FFFD5FA5641A40808AC6E40F /* HandjetFlowerDouble-Medium.ttf */,
+				B0FA0304172D415A904583AF /* HandjetHeartDouble-Extrabold.ttf */,
+				1BDECEFABE1A4DFDBA1FD229 /* ShareTechMono-Regular.ttf */,
+				3AEC877C23C8456B958419FB /* manual_de_ferramentas_2022.pdf */,
+				DAE8A34255A84349AF5E8832 /* manual_de_montagem_2022.pdf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +289,18 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				DE2E857118414693AB49DC82 /* Handjet-Regular.ttf in Resources */,
+				A4501E515E6845D6B688A244 /* HandjetCircle-Black.ttf in Resources */,
+				C46CF475125A4AA8A980F430 /* HandjetCircle-Bold.ttf in Resources */,
+				EFAA6D9BB5CE41C9B99F2D82 /* HandjetCircle-Extralight.ttf in Resources */,
+				14B385BA09264E94A9EF1333 /* HandjetCircleDouble-Light.ttf in Resources */,
+				EADC490022424D9FBFC15C0D /* HandjetCircleDouble-Semibold.ttf in Resources */,
+				A5A47647F68A49CB87BF090E /* HandjetCircleDouble-Thin.ttf in Resources */,
+				1200A182853143AF92CBDE69 /* HandjetFlowerDouble-Medium.ttf in Resources */,
+				F3B70D294FAD4EEA953C043F /* HandjetHeartDouble-Extrabold.ttf in Resources */,
+				A7D527A7FB26486EBA37928D /* ShareTechMono-Regular.ttf in Resources */,
+				B32C6D979E50486DA3C67DD2 /* manual_de_ferramentas_2022.pdf in Resources */,
+				B01EB2E47F254611BB4CBA86 /* manual_de_montagem_2022.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

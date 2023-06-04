@@ -1,21 +1,25 @@
 import React from 'react';
-import {View} from 'react-native';
+import {StyleProp, View, ViewStyle} from 'react-native';
 import Swiper from 'react-native-swiper';
 import {styles} from './styles';
 import {GlobalStyles} from '@globalStyle/GlobalStyles';
 
 export interface ICustomSwiper {
   children: React.ReactNode;
+  backgroundElement?: React.ReactNode;
   setActualIndex: (index: number) => void;
+  style?: StyleProp<ViewStyle>;
 }
 
 export default function CustomSwiper({
   children: slides,
+  backgroundElement,
   setActualIndex,
+  style,
 }: ICustomSwiper) {
   return (
-    <View style={styles.container}>
-      <View style={styles.box} />
+    <View style={style}>
+      {backgroundElement ? backgroundElement : <></>}
       <Swiper
         onIndexChanged={index => setActualIndex(index)}
         loop={false}
