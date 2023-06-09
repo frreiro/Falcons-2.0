@@ -2,10 +2,6 @@ import {GlobalStyles} from '@globalStyle/GlobalStyles';
 import {StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
-  position: {
-    bottom: 90,
-    right: 50,
-  },
   container: {
     position: 'absolute',
     alignItems: 'center',
