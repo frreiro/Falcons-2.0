@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {Image, Text, TouchableOpacity, View} from 'react-native';
+import {Image, Text, TouchableWithoutFeedback, View} from 'react-native';
 import FileViewer from 'react-native-file-viewer';
 import fs from 'react-native-fs';
 import PdfThumbnail, {ThumbnailResult} from 'react-native-pdf-thumbnail';
@@ -44,27 +44,29 @@ export default function PDFComponent(props: IDocument) {
   };
 
   return (
-    <TouchableOpacity style={styles.container} onPress={openPDF}>
-      {thumbnail ? (
-        <Image
-          source={thumbnail}
-          resizeMode="stretch"
-          style={styles.thumbnail_image}
-        />
-      ) : (
-        <></>
-      )}
-      <View style={styles.title_continer}>
-        <View style={styles.text_container}>
-          <Text style={styles.pdf_title}>{props.name.toUpperCase()}</Text>
-          <Text style={styles.pdf_year}>{props.year}</Text>
-        </View>
-        {props.type === 'assemblies' ? (
-          <Icon name={'cog'} size={25} color={GlobalStyles.colors.light} />
+    <TouchableWithoutFeedback onPress={openPDF}>
+      <View style={styles.container}>
+        {thumbnail ? (
+          <Image
+            source={thumbnail}
+            resizeMode="stretch"
+            style={styles.thumbnail_image}
+          />
         ) : (
-          <Icon name={'hammer'} size={25} color={GlobalStyles.colors.light} />
+          <></>
         )}
+        <View style={styles.title_continer}>
+          <View style={styles.text_container}>
+            <Text style={styles.pdf_title}>{props.name.toUpperCase()}</Text>
+            <Text style={styles.pdf_year}>{props.year}</Text>
+          </View>
+          {props.type === 'assemblies' ? (
+            <Icon name={'cog'} size={25} color={GlobalStyles.colors.light} />
+          ) : (
+            <Icon name={'hammer'} size={25} color={GlobalStyles.colors.light} />
+          )}
+        </View>
       </View>
-    </TouchableOpacity>
+    </TouchableWithoutFeedback>
   );
 }
