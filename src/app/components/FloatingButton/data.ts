@@ -31,27 +31,27 @@ const subMenuItemsSector: SubMenuItem[] = [
 
 const subMenuItemsParts: SubMenuItem[] = [
   {
-    id: 0,
+    id: 5,
     iconName: 'alpha-a-circle',
   },
   {
-    id: 1,
+    id: 7,
     iconName: 'alpha-b-circle',
   },
   {
-    id: 2,
+    id: 8,
     iconName: 'alpha-c-circle',
   },
   {
-    id: 3,
+    id: 9,
     iconName: 'alpha-d-circle',
   },
   {
-    id: 4,
+    id: 10,
     iconName: 'alpha-e-circle',
   },
   {
-    id: 5,
+    id: 11,
     iconName: 'alpha-f-circle',
   },
 ];
