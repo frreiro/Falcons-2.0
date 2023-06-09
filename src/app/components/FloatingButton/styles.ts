@@ -1,3 +1,4 @@
+import {GlobalStyles} from '@globalStyle/GlobalStyles';
 import {StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
@@ -14,7 +15,7 @@ export const styles = StyleSheet.create({
     width: 60,
     height: 60,
     borderRadius: 60 / 2,
-    shadowColor: '#00213B',
+    shadowColor: GlobalStyles.colors.secondary,
     shadowOpacity: 0.3,
     shadowOffset: {
       width: 10,
@@ -25,13 +26,13 @@ export const styles = StyleSheet.create({
   },
 
   menu: {
-    backgroundColor: '#00213B',
+    backgroundColor: GlobalStyles.colors.secondary,
   },
 
   submenu: {
     width: 48,
     height: 48,
     borderRadius: 48 / 2,
-    backgroundColor: '#00213B',
+    backgroundColor: GlobalStyles.colors.secondary,
   },
 });

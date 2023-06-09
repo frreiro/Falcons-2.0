@@ -1,4 +1,5 @@
 import {styles} from '@components/FloatingButton/styles';
+import {GlobalStyles} from '@globalStyle/GlobalStyles';
 import React from 'react';
 import {
   TouchableWithoutFeedback,
@@ -11,9 +12,11 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 export default function FloatingItem({
   animate,
   primitivePosition,
+  iconName,
 }: {
   animate: Animated.Value;
   primitivePosition: number;
+  iconName: string;
 }) {
   const subMenuAnimationStyle: Animated.AnimatedProps<StyleProp<ViewStyle>> = {
     transform: [
@@ -21,7 +24,7 @@ export default function FloatingItem({
       {
         translateY: animate.interpolate({
           inputRange: [0, 1],
-          outputRange: [0, -60 * primitivePosition],
+          outputRange: [0, -62 * primitivePosition],
         }),
       },
     ],
@@ -31,7 +34,7 @@ export default function FloatingItem({
     <TouchableWithoutFeedback>
       <Animated.View
         style={[styles.button, styles.submenu, subMenuAnimationStyle]}>
-        <Icon name="account-group" size={20} color={'#FFF'} />
+        <Icon name={iconName} size={20} color={GlobalStyles.colors.primary} />
       </Animated.View>
     </TouchableWithoutFeedback>
   );
