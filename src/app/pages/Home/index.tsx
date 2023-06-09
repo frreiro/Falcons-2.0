@@ -1,5 +1,5 @@
 import React, {useRef} from 'react';
-import {TouchableOpacity, View} from 'react-native';
+import {Linking, TouchableOpacity, View} from 'react-native';
 import {styles} from './styles';
 import Icon from 'react-native-vector-icons/Ionicons';
 
@@ -54,11 +54,19 @@ export default function Home() {
             name={'logo-linkedin'}
             size={30}
             color={GlobalStyles.colors.light}
+            onPress={() =>
+              Linking.openURL(
+                'https://www.linkedin.com/company/falcons-ufformula-sae/',
+              )
+            }
           />
           <Icon
             name={'logo-instagram'}
             size={30}
             color={GlobalStyles.colors.light}
+            onPress={() =>
+              Linking.openURL('https://www.instagram.com/falconsufformula/')
+            }
           />
         </View>
       </View>
